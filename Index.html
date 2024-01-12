@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+     <!-- UNICONS -->
+     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+     <!-- CSS -->
+     <link rel="stylesheet" href="./style.css">
+     <!-- Add favicon -->
+     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Perfil</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Inicio</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">Acerca</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contacto</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button id="downloadButton" class="btn">Descargar CV <i class="uil uil-file-alt"></i></button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Presentacion</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>Guillermo González<span class=""></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Estudiante en práctica de Ingeniería de Ejecución Informática en la PUCV, comprometido con la participación activa en diversos proyectos de desarrollo. 
+                            Mi objetivo es contribuir con soluciones innovadoras y listo para enfrentar desafíos que
+                            me permitan aprender de manera continua en el campo del desarrollo de software.
+                        </p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <button id="downloadButton" class="btn">Descargar CV <i class="uil uil-file-alt"></i></button>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                        <div class="icon"><i class="uil uil-github-alt"></i></div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="./img/perfil.png" alt="avatar">
+                    </div>
+                </div>
+            </section>
+            <!-- -------------- ABOUT BOX ---------------- -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>Acerca de Mí</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>Introduccion</h3>
+                            <p>
+                                Como estudiante de penúltimo año de Ingeniería de Ejecución Informática en la PUCV, poseo conocimientos significativos en HTML, CSS y JavaScript, así como en otros frameworks y bibliotecas modernas, lo que me permite implementar características interactivas de manera efectiva.                           </p>
+                            <p>
+                                Mi experiencia abarca proyectos prácticos en diversos lenguajes de programación, incluyendo Python y Java, así como en el diseño y manejo de bases de datos relacionales. 
+                            </p>
+                            <p>
+                                Además, he desempeñado el rol de ayudante de cátedra para asignaturas clave de mi carrera universitaria.
+                            </p>
+                                      </div>
+                    </div>
+                    <div class="col">
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Frontend</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>React</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Desarrollo</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>JAVA</span>
+                                <span>Python</span>
+                                <span>C</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Base de datos</h3>
+                            </div>
+                               <div class="skills-list">
+                                <span>MySQL</span>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        
+            <!-- -------------- CONTACT BOX ---------------- -->
+
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Contacto</h1>
+                    <span></span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Contactame <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i> Email: guillermo.gonzalez.s01@mail.pucv.cl</p>
+                            <p><i class="uil uil-phone"></i> +56942953900</p>
+                        </div>
+                    </div>
+                            </section>
+
+        </main>
+
+
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Inicio</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">Acerca</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Guillermo González</a> - All rights reserved
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="script.js"></script>
+</body>
+</html>
